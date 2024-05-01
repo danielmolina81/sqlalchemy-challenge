@@ -10,52 +10,45 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 ![](Pics/1.png)
 
-- One year before most recent date in data set.
+- Date one year before the most recent date in data set.
 
 ![](Pics/2.png)
 
-- Pandas DataFrame with 12 months of precipitation data.
+- Pandas DataFrame with last 12 months of precipitation data.
 
 ![](Pics/3.png)
 
-- Line chart with 12 month of precipitation data
+- Chart showing last 12 months of precipiation data.
 
 ![](Pics/4.png)
 
-- Summary statistics for the 12 months of precipitation data.
+- Summary statistics for the last 12 months of precipitation data.
 
 ![](Pics/5.png)
 
 ### Station Analysis
 
-    Design a query to calculate the total number of stations in the dataset.
+- Total number of stations in the dataset.
 
-    Design a query to find the most-active stations (that is, the stations that have the most rows). To do so, complete the following steps:
+![](Pics/6.png)
 
-        List the stations and observation counts in descending order.
-    hint
+- Design a query to find the most-active stations.
 
-    You’ll need to use the func.count function in your query.
-        Answer the following question: which station id has the greatest number of observations?
+![](Pics/7.png)
 
-    Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
-    hint
+- Which station id has the greatest number of observations?
 
-    You’ll need to use functions such as func.min, func.max, and func.avg in your query.
+![](Pics/8.png)
 
-    Design a query to get the previous 12 months of temperature observation (TOBS) data. To do so, complete the following steps:
+- Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
 
-        Filter by the station that has the greatest number of observations.
+![](Pics/9.png)
 
-        Query the previous 12 months of TOBS data for that station.
+- Design a query to get the last 12 months of temperature observations (TOBS) for the most active station and plot a histogram with its results.
 
-        Plot the results as a histogram with bins=12, as the following image shows:
+![](Pics/10.png)
 
-        A screenshot depicts the histogram.
-
-    Close your session.
-
-Part 2: Design Your Climate App
+## Part 2: Design Your Climate App
 
 Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
 
