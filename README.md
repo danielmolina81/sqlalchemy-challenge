@@ -10,19 +10,19 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 ![](Pics/1.png)
 
-- Date one year from the last date in data set.
+- One year before most recent date in data set.
 
 ![](Pics/2.png)
 
-- Pandas DataFrame with 12 months of precipitation data
+- Pandas DataFrame with 12 months of precipitation data.
 
 ![](Pics/3.png)
 
-- Line chart with the results
+- Line chart with 12 month of precipitation data
 
 ![](Pics/4.png)
 
-- Print the summary statistics for the precipitation data.
+- Summary statistics for the 12 months of precipitation data.
 
 ![](Pics/5.png)
 
