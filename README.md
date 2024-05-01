@@ -6,24 +6,27 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 ### Precipitation Analysis
 
-- Find the most recent date in the dataset.
+- Most recent date in the dataset.
 
+![](Pics/1.png)
 
-    Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
+- Date one year from the last date in data set.
 
-    Select only the "date" and "prcp" values.
+![](Pics/2.png)
 
-    Load the query results into a Pandas DataFrame. Explicitly set the column names.
+- Pandas DataFrame with 12 months of precipitation data
 
-    Sort the DataFrame values by "date".
+![](Pics/3.png)
 
-    Plot the results by using the DataFrame plot method, as the following image shows:
+- Line chart with the results
 
-    A screenshot depicts the plot.
+![](Pics/4.png)
 
-    Use Pandas to print the summary statistics for the precipitation data.
+- Print the summary statistics for the precipitation data.
 
-Station Analysis
+![](Pics/5.png)
+
+### Station Analysis
 
     Design a query to calculate the total number of stations in the dataset.
 
