@@ -128,7 +128,7 @@ def tobs():
     session.close()
 
     # Convert into a list of lists
-    tobs_list = [x[0] for x in tobs]
+    tobs_list = [x[1] for x in tobs]
 
     return jsonify(tobs_list)
 
