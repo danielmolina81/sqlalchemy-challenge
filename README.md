@@ -50,7 +50,7 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 ## Part 2: Design Your Climate App
 
-Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
+Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed.
 
     /
 
