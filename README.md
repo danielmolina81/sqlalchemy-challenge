@@ -8,45 +8,45 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 - Most recent date in the dataset.
 
-![](Pics/1.png)
+![](SurfsUp/Pics/1.png)
 
 - Date one year before the most recent date in data set.
 
-![](Pics/2.png)
+![](SurfsUp/Pics/2.png)
 
 - Pandas DataFrame with last 12 months of precipitation data.
 
-![](Pics/3.png)
+![](SurfsUp/Pics/3.png)
 
 - Chart showing last 12 months of precipiation data.
 
-![](Pics/4.png)
+![](SurfsUp/Pics/4.png)
 
 - Summary statistics for the last 12 months of precipitation data.
 
-![](Pics/5.png)
+![](SurfsUp/Pics/5.png)
 
 ### Station Analysis
 
 - Total number of stations in the dataset.
 
-![](Pics/6.png)
+![](SurfsUp/Pics/6.png)
 
 - Design a query to find the most-active stations.
 
-![](Pics/7.png)
+![](SurfsUp/Pics/7.png)
 
 - Which station id has the greatest number of observations?
 
-![](Pics/8.png)
+![](SurfsUp/Pics/8.png)
 
 - Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
 
-![](Pics/9.png)
+![](SurfsUp/Pics/9.png)
 
 - Design a query to get the last 12 months of temperature observations (TOBS) for the most active station and plot a histogram with its results.
 
-![](Pics/10.png)
+![](SurfsUp/Pics/10.png)
 
 ## Part 2: Design Your Climate App
 
@@ -54,21 +54,21 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 
 - Landing Page (/)
 
-![](Pics/11.png)
+![](SurfsUp/Pics/11.png)
 
 
 - /api/v1.0/precipitation
 
-![](Pics/12.png)
+![](SurfsUp/Pics/12.png)
 
 - /api/v1.0/stations
 
-![](Pics/13.png)
+![](SurfsUp/Pics/13.png)
 
 - /api/v1.0/tobs
 
-![](Pics/14.png)
+![](SurfsUp/Pics/14.png)
 
 - /api/v1.0/<start> and /api/v1.0/<start>/<end>
 
-![](Pics/15.png)
+![](SurfsUp/Pics/15.png)
