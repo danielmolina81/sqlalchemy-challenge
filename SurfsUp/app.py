@@ -1,10 +1,5 @@
 ## Part 2: Design Your Climate App
 
-# Imports
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-
 # Python SQL toolkit and Object Relational Mapper
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
