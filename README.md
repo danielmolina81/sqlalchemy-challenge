@@ -82,6 +82,7 @@ Minimum, average and maximum temperatures calculated from the given start date t
 ![](SurfsUp/Pics/16.png)
 
 /api/v1.0/<start>/<end>
+
 Minimum, average and maximum temperatures calculated from the given start and end dates presented as a JSON list
 
 ![](SurfsUp/Pics/17.png)
