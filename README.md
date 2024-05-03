@@ -40,7 +40,7 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 ![](SurfsUp/Pics/8.png)
 
-- Lowest, highest, and average temperatures for the most active station.
+- Minimum, maximum, and average temperatures for the most active station.
 
 ![](SurfsUp/Pics/9.png)
 
@@ -55,7 +55,6 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 - Landing Page (/)
 
 ![](SurfsUp/Pics/11.png)
-
 
 - /api/v1.0/precipitation route
 
