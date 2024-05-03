@@ -40,11 +40,11 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 ![](SurfsUp/Pics/8.png)
 
-- Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
+- Lowest, highest, and average temperatures for the most active station.
 
 ![](SurfsUp/Pics/9.png)
 
-- Design a query to get the last 12 months of temperature observations (TOBS) for the most active station and plot a histogram with its results.
+- Histogram of the last 12 months temperature observations (TOBS) for the most active station.
 
 ![](SurfsUp/Pics/10.png)
 
@@ -57,34 +57,34 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 ![](SurfsUp/Pics/11.png)
 
 
-- /api/v1.0/precipitation
+- /api/v1.0/precipitation route
 
 Last 12 months of precipitation data presented as a JSON dictionary with "Date" as Key and the "Precipitation" results as a list of values.
 
 ![](SurfsUp/Pics/12.png)
 
-- /api/v1.0/stations
+- /api/v1.0/stations route
 
 List of stations presented as a JSON list.
 
 ![](SurfsUp/Pics/13.png)
 
-- /api/v1.0/tobs
+- /api/v1.0/tobs route
 
 Last 12 months of temperature observations for the most active station presented as a JSON list of "Date" and "Temperature" lists.
 
 ![](SurfsUp/Pics/14.png)
 
-- /api/v1.0/<start>
+- /api/v1.0/*start* route
 
 Minimum, average and maximum temperatures calculated from the given start date to the end of the dataset presented as a JSON list.
 
 ![](SurfsUp/Pics/15.png)
 ![](SurfsUp/Pics/16.png)
 
-/api/v1.0/<start>/<end>
+- /api/v1.0/*start*/*end* route
 
-Minimum, average and maximum temperatures calculated from the given start and end dates presented as a JSON list
+Minimum, average and maximum temperatures calculated from the given start and end dates presented as a JSON list.
 
 ![](SurfsUp/Pics/17.png)
 ![](SurfsUp/Pics/18.png)
