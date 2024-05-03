@@ -53,7 +53,7 @@ def landing():
         f"<h3>/api/v1.0/YYYY-MM-DD<br/>"
         f"To see the minimum, maximum and average temperatures calculated from the given start date to the end of the dataset.</h3>"
         f"<h3>/api/v1.0/YYYY-MM-DD/YYYY-MM-DD<br/>"
-        f"To see the minimum, average and maximum temperatures calculated from the given start and end date.</h3>"        
+        f"To see the minimum, maximum and average temperatures calculated from the given start and end date.</h3>"        
         f"Note: Data available between 2010-01-01 and 2017-08-23"
     )
 
