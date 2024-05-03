@@ -42,7 +42,8 @@ def landing():
 
     # Display available routes
     return (
-        f"<h1>Hello, the available routes are:</h1><br/>"
+        f"<h1>Hello! Welcome to my API.</h1>"
+        f"<h2>The available routes are:</h2>"
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs"
@@ -92,7 +93,7 @@ def stations():
     session = Session(engine)
 
     # Create a query to retrieve the list of stations
-    stations = session.query(S.station).all()
+    stations = session.query(M.station).distinct().all()
 
     # Close Session
     session.close() 

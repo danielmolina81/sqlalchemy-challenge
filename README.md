@@ -32,7 +32,7 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 ![](SurfsUp/Pics/6.png)
 
-- Design a query to find the most-active stations.
+- Design a query to find the most-active stations (Use of Join)
 
 ![](SurfsUp/Pics/7.png)
 
