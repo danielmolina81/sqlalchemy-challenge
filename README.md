@@ -63,16 +63,19 @@ Last 12 months of precipitation data presented as a JSON dictionary with "Date" 
 ![](SurfsUp/Pics/12.png)
 
 - /api/v1.0/stations
+
 List of stations presented as a JSON list.
 
 ![](SurfsUp/Pics/13.png)
 
 - /api/v1.0/tobs
+
 Last 12 months of temperature observations for the most active station presented as a JSON list of "Date" and "Temperature" lists.
 
 ![](SurfsUp/Pics/14.png)
 
 - /api/v1.0/<start>
+
 Minimum, average and maximum temperatures calculated from the given start date to the end of the dataset presented as a JSON list.
 
 ![](SurfsUp/Pics/15.png)
