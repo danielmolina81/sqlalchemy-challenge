@@ -58,6 +58,7 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 
 
 - /api/v1.0/precipitation
+
 Last 12 months of precipitation data presented as a JSON dictionary with "Date" as Key and the "Precipitation" results as a list of values.
 
 ![](SurfsUp/Pics/12.png)
