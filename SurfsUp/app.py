@@ -51,7 +51,7 @@ def landing():
         f"<h3>/api/v1.0/tobs<br/>"
         f"To see the last 12 months of temperature observations for the most active station.</h3>"
         f"<h3>/api/v1.0/YYYY-MM-DD<br/>"
-        f"To see the minimum, average and maximum temperatures calculated from the given start date to the end of the dataset.</h3>"
+        f"To see the minimum, maximum and average temperatures calculated from the given start date to the end of the dataset.</h3>"
         f"<h3>/api/v1.0/YYYY-MM-DD/YYYY-MM-DD<br/>"
         f"To see the minimum, average and maximum temperatures calculated from the given start and end date.</h3>"        
         f"Note: Data available between 2010-01-01 and 2017-08-23"
@@ -149,7 +149,7 @@ def tobs():
 # <start> route
 @app.route("/api/v1.0/<start>")
 def start(start):
-    """Minimum, average and maximum temperatures calculated from a given start date until the end of the dataset."""
+    """Minimum, maximuma and average temperatures calculated from a given start date until the end of the dataset."""
 
     # Create session from Python to the DB
     session = Session(engine)
@@ -163,7 +163,7 @@ def start(start):
     # Check if start date exists in data base
     if start >=first_date and start <= last_date:
 
-        # Query minimum, average and maximum temperature for a specified start date
+        # Query minimum, maximum and average temperature for a specified start date
         temperatures = session.query(func.min(M.tobs), func.max(M.tobs), func.avg(M.tobs)) \
                         .filter(M.date >= start).all()
 
@@ -182,7 +182,7 @@ def start(start):
 # /api/v1.0/<start>/<end> route
 @app.route("/api/v1.0/<start>/<end>")
 def start_end(start,end):
-    """Minimum, average and maximum temperatures calculated from the given start and end date."""
+    """Minimum, maximum and average temperatures calculated from the given start and end date."""
 
     # Create session from Python to the DB
     session = Session(engine)
@@ -217,7 +217,7 @@ def start_end(start,end):
         return jsonify({"error": f"{end} is not present in the dataset."}), 404    
 
     else:
-        # Query minimum, average and maximum temperature for a specified start date
+        # Query minimum, maximum and average temperature for a specified start date
         temperatures = session.query(func.min(M.tobs), func.max(M.tobs), func.avg(M.tobs)) \
                         .filter(M.date >= start, M.date <= end).all()
 
