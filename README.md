@@ -76,14 +76,14 @@ Last 12 months of temperature observations for the most active station presented
 
 - /api/v1.0/*start* route
 
-Minimum, average and maximum temperatures calculated from the given start date to the end of the dataset presented as a JSON list.
+Minimum, maximum and average temperatures calculated from the given start date to the end of the dataset presented as a JSON list.
 
 ![](SurfsUp/Pics/15.png)
 ![](SurfsUp/Pics/16.png)
 
 - /api/v1.0/*start*/*end* route
 
-Minimum, average and maximum temperatures calculated from the given start and end dates presented as a JSON list.
+Minimum, maximum and average temperatures calculated from the given start and end dates presented as a JSON list.
 
 ![](SurfsUp/Pics/17.png)
 ![](SurfsUp/Pics/18.png)

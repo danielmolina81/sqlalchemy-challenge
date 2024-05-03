@@ -149,7 +149,7 @@ def tobs():
 # <start> route
 @app.route("/api/v1.0/<start>")
 def start(start):
-    """Minimum, maximuma and average temperatures calculated from a given start date until the end of the dataset."""
+    """Minimum, maximum and average temperatures calculated from a given start date until the end of the dataset."""
 
     # Create session from Python to the DB
     session = Session(engine)
